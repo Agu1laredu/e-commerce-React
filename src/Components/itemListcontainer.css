@@ -1,0 +1,21 @@
+.bg-dark{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    height:30em;
+}
+.imagen{
+    border-radius: 50px;
+    width: 45rem;
+    margin-top: 2%;
+}
+
+.texto{
+    text-align: center;
+    width: 40rem;
+    margin-top: 10%;
+    margin-left: 10%;
+}

@@ -1,0 +1,42 @@
+.Menu{
+    width: 100%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+}
+h1{
+    text-align: center;
+  }
+  
+  nav{
+    display: flex;
+    text-align: center;
+    margin: auto ;
+    flex-direction: row;
+    
+  }
+
+  .buttonnav{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 4rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .buttonnav:hover {
+    cursor: pointer;
+    border-bottom: none;
+    border-top: none;
+    background-color: #214d58;
+    transition: 1s;
+  }
+
+  li {
+    margin:5%;
+    cursor: pointer;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+  }

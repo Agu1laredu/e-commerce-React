@@ -1,0 +1,16 @@
+.Icon {
+    display: flex;
+    margin-right: 1%;
+    width: 10rem;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left: 2%;
+    z-index: 2;
+}
+
+.carrito {
+
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+}
