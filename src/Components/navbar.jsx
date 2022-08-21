@@ -3,7 +3,7 @@ import  './navbar.css'
 function Menu() {
   return (
       <div className="Menu">
-         <h1>TRANSPORTE ATMA</h1>
+         <h1>TIENDA NOOB</h1>
        <nav>
        
         <div className='buttonnav'>

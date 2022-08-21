@@ -8,12 +8,12 @@ function Lading() {
       <Card.Img src={Fotodos} alt="Card image" className='imagen' />
       <div>
       <Card.ImgOverlay>
-        <Card.Title className='texto'>TU TRANSPORTE FAVORITO</Card.Title>
+        <Card.Title className='texto'>DREW ARGENTINA,TU TIENDA FAVORITA</Card.Title>
         <Card.Text className='texto'>
-          Con más de siete años en el mercado, logramos ser numero uno en satisfacer a nuestros clientes con nuestras entregas en tiempo y forma. 
-          nominados a los perimos LoftTopicEmpresariales este 2022 en la categoria de distribuciones internacionales de productos primarios 
+         TIENDA NOOB se posiciona en el puesto numero uno en Argentina en distribución de la marca Drew House , Con tan solo dos años en el mercado . 
+         Expandiendonos a más paises de latam, pronto Brasil, Chile , Peru , Bolivia y más.
         </Card.Text>
-        <Card.Text className='texto'>NUMERO UNO EN EL MERCADO</Card.Text>
+        <Card.Text className='texto'>NUMERO UNO EN EL MERCADO, NUMERO UNO EN DISTRIBUCIÓN ARGENTINA</Card.Text>
       </Card.ImgOverlay>
       </div>
     </Card>
