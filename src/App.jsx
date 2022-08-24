@@ -1,11 +1,10 @@
 import './App.css';
-import Menu from './Components/navbar.jsx';
-import Icon from './Components/cardWidget';
+import Menu from './Components/Navbar.jsx';
 
 function App() {
   return (
     <div className="App">
-        <Icon/>
+        
       <header className="App-header">
         <Menu/>
       </header>

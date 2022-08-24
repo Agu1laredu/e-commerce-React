@@ -1,7 +1,6 @@
 .Menu{
     width: 100%;
     margin-bottom: 2%;
-    margin-right: 10%;
 }
 h1{
     text-align: center;
@@ -29,7 +28,7 @@ h1{
     cursor: pointer;
     border-bottom: none;
     border-top: none;
-    background-color: #214d58;
+    background-color: #b8c40f;
     transition: 1s;
   }
 
@@ -39,4 +38,39 @@ h1{
     text-align: center;
     list-style: none;
     text-decoration: none;
+  }
+
+  @media (max-width: 800px){
+    nav{
+      justify-content: space-between;
+    }
+    h1{
+      font-size: 35px;
+    }
+    li{
+      font-size: 15px;
+    }
+    .buttonnav {
+      height: 2rem;
+      width: 20rem;
+    }
+    
+  }
+
+  
+  @media (max-width: 500px){
+    nav{
+      justify-content: space-between;
+    }
+    h1{
+      font-size: 20px;
+    }
+    li{
+      font-size: 10px;
+    }
+    .buttonnav {
+      height: 1.5rem;
+      width: 20rem;
+    }
+    
   }

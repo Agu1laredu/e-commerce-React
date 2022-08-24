@@ -1,9 +1,12 @@
-import  './navbar.css'
+import  './Navbar.css'
+import Icon from './CardWidget';
 
 function Menu() {
   return (
       <div className="Menu">
+          
          <h1>TIENDA NOOB</h1>
+         <Icon/>
        <nav>
        
         <div className='buttonnav'>

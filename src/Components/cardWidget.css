@@ -1,11 +1,10 @@
 .Icon {
     display: flex;
-    margin-right: 1%;
     width: 10rem;
     cursor: pointer;
-    margin-top: 4%;
-    margin-left: 2%;
-    z-index: 2;
+    margin-top: -11%;
+    margin-bottom: 5%;
+    margin-left: -18%;
 }
 
 .carrito {
@@ -13,4 +12,10 @@
     color: white;
     font-size: 4rem;
     cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .carrito {
+        font-size: 3rem;
+    }
 }

@@ -1,23 +1,49 @@
-import './itemListcontainer.css'
+import './ItemListcontainer.css'
 import Card from 'react-bootstrap/Card';
-import Fotodos from '../assets/imagenuno.jpg'
+import Fotodos from '../assets/imagenuno.jpg';
+import Fundadores from './SubComponents/Funders';
 
-function Lading() {
+
+function ItemListcontainer() {
+  
+  const funders = {
+    nombre: 'Eduardo Aguilar',
+    urlimagen: 'https://via.placeholder.com/64',
+    texto:'Fundador y Director de ventas '
+  }
+  const fundersdos = {
+    nombre: 'Bellamy Steel',
+    urlimagen: 'https://via.placeholder.com/64',
+    texto:'Fundador y Director de Marketing'
+  }
+  const funderstres = {
+    nombre: 'Bella Thomsom',
+    urlimagen: 'https://via.placeholder.com/64',
+    texto:'Fundadora y Directora de Producción'
+  }
+
   return (
-    <Card className="bg-dark text-white">
-      <Card.Img src={Fotodos} alt="Card image" className='imagen' />
-      <div>
-      <Card.ImgOverlay>
+   <div>
+     <Card className="bg-dark text-white">
+      <Card.Img src={Fotodos} alt="Card image" className='imagen ' id='imagen'/>
+      <div className='divtoptex'>
+      <Card.ImgOverlay className='textoo'>
         <Card.Title className='texto'>DREW ARGENTINA,TU TIENDA FAVORITA</Card.Title>
-        <Card.Text className='texto'>
-         TIENDA NOOB se posiciona en el puesto numero uno en Argentina en distribución de la marca Drew House , con tan solo dos años en el mercado . 
+        <Card.Text className='texto textoo'>
+         Tienda noob se posiciona en el puesto numero uno en Argentina en distribución de joyas importadas , con más de diez años en el mercado . 
          Expandiendonos a más paises de latam, pronto Brasil, Chile , Peru , Bolivia y más.
         </Card.Text>
         <Card.Text className='texto'>NUMERO UNO EN EL MERCADO, NUMERO UNO EN DISTRIBUCIÓN ARGENTINA</Card.Text>
       </Card.ImgOverlay>
       </div>
     </Card>
+       <div className='fundadores'>
+       <Fundadores  funders={funders}/>
+       <Fundadores  funders={fundersdos}/>
+       <Fundadores  funders={funderstres}/>
+       </div>
+   </div>
   );
 }
 
-export default Lading;
+export default ItemListcontainer;

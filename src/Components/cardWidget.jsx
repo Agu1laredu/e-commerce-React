@@ -1,4 +1,4 @@
-import './cardWidget.css'
+import './CardWidget.css'
 import { BsFillCartFill } from "react-icons/bs";
 
 function Icon() {
