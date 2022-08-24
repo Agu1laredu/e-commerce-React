@@ -1,7 +1,7 @@
 import  './Navbar.css'
 import Icon from './CardWidget';
 
-function Menu() {
+function Navbar() {
   return (
       <div className="Menu">
           
@@ -24,4 +24,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Navbar;

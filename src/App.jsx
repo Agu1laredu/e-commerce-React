@@ -1,12 +1,12 @@
 import './App.css';
-import Menu from './Components/Navbar.jsx';
+import Navbar from './Components/Navbar.jsx';
 
 function App() {
   return (
     <div className="App">
         
       <header className="App-header">
-        <Menu/>
+        <Navbar/>
       </header>
     </div>
   );
