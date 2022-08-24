@@ -1,7 +1,7 @@
 import './ItemListcontainer.css'
 import Card from 'react-bootstrap/Card';
-import Fundadores from './Components/SubComponents/Funders';
-import Slider from './Components/SubComponents/Slider';
+import Fundadores from './SubComponents/Funders';
+import Slider from './SubComponents/Slider';
 
 
 function ItemListcontainer() {
