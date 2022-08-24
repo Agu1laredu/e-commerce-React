@@ -1,11 +1,14 @@
 import Sliderr from './Componentes.Sliders/Sliderr';
-import Uno from '../../assets/imagenuno.jpg';
-import Dos from '../../assets/conjuntonegro.jpg';
-import Tres from '../../assets/conjuntogris.jpg';
+import Uno from '../../assets/joyitas.jpg';
+import Dos from '../../assets/joyados.jpg';
+import Tres from '../../assets/joyatres.jpg';
+import Cuatro from '../../assets/joyascuatro.jpg';
+import Cinco from '../../assets/joyascinco.jpg';
+import Seis from '../../assets/joyauno.jpg';
 
 function SliderFoto () {
 
-  const mockImagenes = [Uno, Dos, Tres];
+  const mockImagenes = [Uno, Dos, Tres, Cuatro, Cinco, Seis];
 
   return <Sliderr imagenes={mockImagenes} />
 
