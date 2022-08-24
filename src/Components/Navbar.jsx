@@ -1,5 +1,5 @@
 import  './navbar.css';
-import Icon from './CardWidget';
+import Icon from './cardWidget';
 
 function Navbar() {
   return (
