@@ -1,6 +1,5 @@
 import './ItemListcontainer.css'
 import Card from 'react-bootstrap/Card';
-import Fotodos from '../assets/imagenuno.jpg';
 import Fundadores from './SubComponents/Funders';
 import Slider from './SubComponents/Slider';
 
@@ -26,7 +25,6 @@ function ItemListcontainer() {
   return (
    <div>
      <Card className="bg-dark text-white">
-      {/* <Card.Img src={Fotodos} alt="Card image" className='imagen ' id='imagen'/> */}
       <Slider/>
       <div className='divtoptex'>
       <Card.ImgOverlay className='textoo'>
