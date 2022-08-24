@@ -10,13 +10,13 @@ function Navbar() {
        <nav>
        
         <div className='buttonnav'>
-            <li>INICIO</li>
+            <li className='li'>INICIO</li>
         </div>
         <div className='buttonnav'>
-            <li>PRODUCTOS</li>
+            <li className='li'>PRODUCTOS</li>
         </div>
         <div className='buttonnav'>
-            <li>CONTACTO</li>
+            <li className='li'>CONTACTO</li>
         </div>
        </nav>
        <hr/>

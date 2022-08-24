@@ -32,7 +32,7 @@ h1{
     transition: 1s;
   }
 
-  li {
+  .li {
     margin:5%;
     cursor: pointer;
     text-align: center;
