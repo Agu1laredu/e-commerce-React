@@ -36,6 +36,7 @@ button {
     width: 40px;
     background: #000000;
     color: #f8f8f8;
+    cursor: pointer;
 }
 
 .slide.active {
