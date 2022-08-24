@@ -4,7 +4,7 @@ import Fundadores from './SubComponents/Funders';
 import Slider from './SubComponents/Slider';
 
 
-function ItemListcontainer() {
+function itemListcontainer() {
   
   const funders = {
     nombre: 'Eduardo Aguilar',
@@ -46,4 +46,4 @@ function ItemListcontainer() {
   );
 }
 
-export default ItemListcontainer;
+export default itemListcontainer; 
