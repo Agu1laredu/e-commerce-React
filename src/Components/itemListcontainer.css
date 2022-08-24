@@ -3,30 +3,26 @@
     justify-content: center;
     justify-items: center;
     text-align: center;
-    margin: auto;
     color: white;
     height: 30em;
-   
 }
 
 
-.imagen {
-    border-radius: 50px;
-    width: 35rem;
-    margin-right: 10%;
-    margin-top: 2%;
+.divtoptex{
+    margin-right: 15%;
 }
 
 .textoo {
-    margin-right: 5%;
+    display: grid;
+    margin: auto;
     margin-top: 18%;
+    
 }
 
 .texto {
     text-align: center;
-    width: 30rem;
+    width: 25rem;
     margin-top: 10%;
-    margin-left: 10%;
 }
 
 .fundadores {

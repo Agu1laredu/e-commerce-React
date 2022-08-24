@@ -5,7 +5,7 @@ const Fundadores = ({funders}) => {
     return (
         <Fragment>
             <div className='media'>
-            <img src={funders.urlimagen} alt='' className='mr-3' />
+            <img src={funders.urlimagen} alt='' className='mr-3' id='mr-3' />
             <div className='media-body'>
                 <h3 className='mt-0'>{funders.nombre}</h3>
             </div>
