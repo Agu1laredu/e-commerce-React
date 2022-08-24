@@ -48,9 +48,6 @@
     font-size: 20px;
 }
 
-.media .imagen {
-    width: 30rem;
-}
 
 
 @media (max-width: 1200px) {
@@ -67,6 +64,10 @@
     justify-items: center;
     text-align: center;
 }
+.divtoptex{
+    display: flex;
+    margin: auto;
+}
 .textoo{
     margin-top: 25%;
     margin-bottom: 5%;
@@ -75,17 +76,15 @@
     width: 25rem;
     margin-left: 0;
 }
-.imagen {
-    width: 25rem;
-    margin-right: 0;
-    margin-top: 2%;
-}
+
 .fundadores{
     margin-top: 100%;
 }
 }
 @media (max-width: 500px) {
+    
   .textoo{
     margin-bottom: -10%;
   }
+ 
  }
