@@ -9,7 +9,7 @@ function Footer() {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-            <h4>THIS ATMA INC</h4>
+           <h4>AGUILA DORADA .INC</h4>
             <h1 className="list-unstyled">
               <li>342-420-6969</li>
               <li>BUENOS AIRES, ARGENTINA</li>
@@ -49,7 +49,7 @@ function Footer() {
         <div className="row">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} THIS ATMA INC | Derechos reservados|
-            Términos de servicio| Privacidad
+            Términos de servicio| Privacidad 
           </p>
         </div>
       </div>

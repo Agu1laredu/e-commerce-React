@@ -5,7 +5,7 @@ function Navbar() {
   return (
       <div className="Menu">
           
-         <h1>TIENDA NOOB</h1>
+         <h1>JOYERÍA AGUILA DORADA</h1>
          <Icon/>
        <nav>
        
