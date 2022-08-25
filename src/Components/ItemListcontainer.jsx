@@ -23,7 +23,7 @@ function ItemListcontainer() {
   }
 
   return (
-    <div>
+    <section>
       <Card className="bg-dark text-white">
         <Slider />
         <div className='divtoptex'>
@@ -42,7 +42,7 @@ function ItemListcontainer() {
         <Fundadores funders={fundersdos} />
         <Fundadores funders={funderstres} />
       </div>
-    </div>
+    </section>
   );
 }
 
