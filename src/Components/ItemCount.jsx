@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import './ItemCount.css'
 
 const Contador = ({stock = 0, initial = 1, onAdd}) => {
     const [count, setCount] = useState(0);
 
-   
+   useEffect(() => {
+       setCount(initial);
+   }, []);
 
     const increment = () => {
       if (count < stock) {
@@ -22,7 +24,7 @@ const Contador = ({stock = 0, initial = 1, onAdd}) => {
        <div className='contadordiv'>
        <p className='valor'>VALOR:{count}</p>
         <button className='botoncount' onClick={decrement}>{'-'}</button>
-        <button className='botoncount' onClick={() => {setCount(0)}}>{'0'}</button>
+        {/* <button className='botoncount' onClick={() => {setCount(0)}}>{'0'}</button> boton de reset solo porque pude hacerlo */}
         <button className='botoncount' onClick={increment}>{'+'}</button>
         {
           stock ? <button className='addcart' onClick={() => onAdd(count)}>ADD</button> : <button disabled>ADD</button> 
