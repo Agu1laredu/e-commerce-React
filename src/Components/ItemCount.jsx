@@ -25,7 +25,7 @@ const Contador = ({stock = 0, initial = 1, onAdd}) => {
         <button className='botoncount' onClick={() => {setCount(0)}}>{'0'}</button>
         <button className='botoncount' onClick={increment}>{'+'}</button>
         {
-          stock ? <button className='addcart' onClick={() => onAdd(count)}>ADD</button> : <button disabled>AGREGAR</button> 
+          stock ? <button className='addcart' onClick={() => onAdd(count)}>ADD</button> : <button disabled>ADD</button> 
         }
        </div>
     </div>
