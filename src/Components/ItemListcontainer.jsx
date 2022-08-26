@@ -1,11 +1,15 @@
 import './ItemListcontainer.css';
 import Card from 'react-bootstrap/Card';
 import Fundadores from './SubComponents/Funders';
-import Contador from './Contador'
+import Contador from './ItemCount'
 import Slider from './SubComponents/Slider';
 
 
 function ItemListcontainer() {
+
+  const onAdd = (qty) => {
+    alert('Tienes que seleccionar uno o más productos.')
+  }
 
   const funders = {
     nombre: 'Eduardo Aguilar',
@@ -39,7 +43,7 @@ function ItemListcontainer() {
         </div>
       </Card>
       <section>
-        <Contador/>
+        <Contador stock={5} initial={1} onAdd={onAdd}/>
       </section>
       <div className='fundadores'>
         <Fundadores funders={funders} />
