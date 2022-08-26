@@ -8,7 +8,7 @@ import Slider from './SubComponents/Slider';
 function ItemListcontainer() {
 
   const onAdd = (qty) => {
-    alert('Tienes que seleccionar uno o más productos.')
+    alert(' '+ qty + ' ' +'Cantidad seleccionada')
   }
 
   const funders = {
