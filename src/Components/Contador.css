@@ -1,0 +1,38 @@
+.contador{
+    margin: 20%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 300px;
+    background-color: red;
+}
+
+.contadordiv{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    background-color: blue;
+}
+
+.botoncount{
+    margin: auto;
+    height: 40%;
+    width: 15%;
+}
+.contadorrrr{
+    font-size: 300%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+}
+
+.valor{
+    display: flex;
+    margin: auto;
+    font-size: 200%;
+    text-align: center;
+}

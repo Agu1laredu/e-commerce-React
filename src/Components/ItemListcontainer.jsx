@@ -1,6 +1,7 @@
 import './ItemListcontainer.css';
 import Card from 'react-bootstrap/Card';
 import Fundadores from './SubComponents/Funders';
+import Contador from './Contador'
 import Slider from './SubComponents/Slider';
 
 
@@ -37,6 +38,9 @@ function ItemListcontainer() {
           </Card.ImgOverlay>
         </div>
       </Card>
+      <section>
+        <Contador/>
+      </section>
       <div className='fundadores'>
         <Fundadores funders={funders} />
         <Fundadores funders={fundersdos} />
