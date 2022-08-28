@@ -1,26 +1,30 @@
 .main-footer {
-    color: white;
-    padding-top: 3em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  .list-unstyled{
-    margin-top: -5%;
-    margin-bottom: 5%;
-  }
-  .iconooo{
-    margin-top: 1%;
-    margin-bottom: -10%;
-    font-size: 300%;
-  }
-  .col{
-    margin-left: 2%;
-  }
+  color: white;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
 
-  li{
-    list-style: none;
-  }
-  .col-sm{
-    text-align: center;
-  }
+.list-unstyled {
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+
+.iconooo {
+  margin-top: 1%;
+  margin-bottom: -10%;
+  font-size: 300%;
+}
+
+.col {
+  margin-left: 2%;
+}
+
+li {
+  list-style: none;
+}
+
+.col-sm {
+  text-align: center;
+}

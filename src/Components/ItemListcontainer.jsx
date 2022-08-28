@@ -4,6 +4,10 @@ import Fundadores from './SubComponents/Funders';
 import Contador from './ItemCount'
 import Slider from './SubComponents/Slider';
 
+// import fotouno from '../assets/ceouno.jpg';
+// import fotodos from '../assets/ceodos.jpg';
+// import fotouno from '../assets/ceotres.jpg';
+
 
 function ItemListcontainer() {
 
@@ -13,17 +17,17 @@ function ItemListcontainer() {
 
   const funders = {
     nombre: 'Eduardo Aguilar',
-    urlimagen: 'https://via.placeholder.com/64',
+    urlimagen: 'https://i.pinimg.com/564x/28/e4/6f/28e46f821f4f7eeca40249704f8cedf8.jpg',
     texto: 'Fundador y Director de ventas '
   }
   const fundersdos = {
     nombre: 'Bellamy Steel',
-    urlimagen: 'https://via.placeholder.com/64',
+    urlimagen: 'https://i.pinimg.com/564x/f3/78/4a/f3784adc704a1bc9bcb2e494cd39caee.jpg',
     texto: 'Fundador y Director de Marketing'
   }
   const funderstres = {
     nombre: 'Bella Thomsom',
-    urlimagen: 'https://via.placeholder.com/64',
+    urlimagen: 'https://i.pinimg.com/564x/09/be/ac/09beac60c960fdb61f877b1a84a30b77.jpg',
     texto: 'Fundadora y Directora de Producción'
   }
 
