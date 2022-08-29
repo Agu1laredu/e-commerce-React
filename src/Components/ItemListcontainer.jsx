@@ -38,10 +38,10 @@ function ItemListcontainer() {
         <div className='divtoptex'>
           <Card.ImgOverlay className='textoo'>
             <Card.Title className='texto'>AGUILA DORADA ,CONFIANZA EN TU BRILLO</Card.Title>
-            <Card.Text className='texto textoo'>
+            <p className='texto '>
               Aguila Dorada se posiciona en el puesto numero uno en Argentina en distribución de joyas importadas , con más de diez años en el mercado .
               Expandiendonos a más paises de latam, pronto Brasil, Chile , Peru , Bolivia y más.
-            </Card.Text>
+            </p>
             <Card.Text className='texto'>NUMERO UNO EN EL MERCADO, NUMERO UNO EN DISTRIBUCIÓN ARGENTINA</Card.Text>
           </Card.ImgOverlay>
         </div>

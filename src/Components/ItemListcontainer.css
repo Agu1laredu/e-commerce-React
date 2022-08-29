@@ -12,18 +12,14 @@
     margin-right: 15%;
 }
 
-.textoo {
-    display: grid;
-    margin: auto;
-    margin-top: 18%;
-    
-}
 
 .texto {
     text-align: center;
     width: 25rem;
-    margin-top: 10%;
+    margin-top: 20%;
+    text-align: justify;
 }
+
 
 .fundadores {
     background-image: url(../assets/remerablanca.jpg);
