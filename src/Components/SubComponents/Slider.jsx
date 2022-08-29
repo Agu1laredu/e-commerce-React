@@ -6,9 +6,10 @@ import Cuatro from '../../assets/joyascuatro.jpg';
 import Cinco from '../../assets/joyascinco.jpg';
 import Seis from '../../assets/joyauno.jpg';
 
+
 function SliderFoto () {
 
-  const mockImagenes = [Uno, Dos, Tres, Cuatro, Cinco, Seis];
+  const mockImagenes = [Uno, Dos, Tres, Cuatro, Cinco, Seis,];
 
   return <Sliderr imagenes={mockImagenes} />
 

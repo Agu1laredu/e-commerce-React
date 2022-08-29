@@ -1,4 +1,5 @@
 import React, {useState,useEffect} from 'react';
+import Icon from './cardWidget';
 import './ItemCount.css'
 
 const Contador = ({stock = 0, initial = 1, onAdd}) => {
@@ -20,14 +21,13 @@ const Contador = ({stock = 0, initial = 1, onAdd}) => {
     }
 
     return <div className='contador'>
-         <h3 className='contadorrrr'>CONTADOR</h3>
        <div className='contadordiv'>
        <p className='valor'>VALOR:{count}</p>
         <button className='botoncount' onClick={decrement}>{'-'}</button>
         {/* <button className='botoncount' onClick={() => {setCount(0)}}>{'0'}</button> boton de reset solo porque pude hacerlo */}
         <button className='botoncount' onClick={increment}>{'+'}</button>
         {
-          stock ? <button className='addcart' onClick={() => onAdd(count)}>ADD</button> : <button disabled>ADD</button> 
+          stock ? <button className='addcart' onClick={() => onAdd(count)}><Icon className='iconito'/></button> : <button disabled><Icon className='iconito'/></button> 
         }
        </div>
     </div>

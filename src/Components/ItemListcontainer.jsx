@@ -1,8 +1,10 @@
 import './ItemListcontainer.css';
 import Card from 'react-bootstrap/Card';
 import Fundadores from './SubComponents/Funders';
-import Contador from './ItemCount'
+
 import Slider from './SubComponents/Slider';
+import ItemProductcontainer from './ItemProductcontainer';
+
 
 // import fotouno from '../assets/ceouno.jpg';
 // import fotodos from '../assets/ceodos.jpg';
@@ -47,8 +49,10 @@ function ItemListcontainer() {
         </div>
       </Card>
       <section>
-        <Contador stock={5} initial={1} onAdd={onAdd}/>
+       
+        <ItemProductcontainer/>
       </section>
+     
       <div className='fundadores'>
         <Fundadores funders={funders} />
         <Fundadores funders={fundersdos} />
