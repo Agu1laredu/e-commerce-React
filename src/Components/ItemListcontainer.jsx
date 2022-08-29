@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Fundadores from './SubComponents/Funders';
 
 import Slider from './SubComponents/Slider';
-import ItemProductcontainer from './ItemProductcontainer';
+import ItemProductcontainer from './ItemList';
 
 
 // import fotouno from '../assets/ceouno.jpg';
@@ -13,9 +13,7 @@ import ItemProductcontainer from './ItemProductcontainer';
 
 function ItemListcontainer() {
 
-  const onAdd = (qty) => {
-    alert(' '+ qty + ' ' +'Cantidad seleccionada')
-  }
+ 
 
   const funders = {
     nombre: 'Eduardo Aguilar',

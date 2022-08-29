@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Contador from './ItemCount'
-import './ItemProductscontainer.css';
+import './ItemList.css';
 import desafio from "./Utils/promesa";
-import { data } from "./Utils/data";
+import { item } from "./Utils/item";
 
 import Card from "react-bootstrap/Card";
 
@@ -10,7 +10,7 @@ const ItemProductcontainer = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    desafio(data)
+    desafio(item)
       .then((result) => setProducts(result))
       .catch((err) => console.log(err));
   }, []);
