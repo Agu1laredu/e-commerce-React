@@ -4,6 +4,8 @@ import './ItemList.css';
 import desafio from "./Utils/promesa";
 import { item } from "./Utils/item";
 
+import Swal from 'sweetalert2'
+
 import Card from "react-bootstrap/Card";
 
 const ItemProductcontainer = () => {
@@ -16,7 +18,13 @@ const ItemProductcontainer = () => {
   }, []);
 
   const onAdd = (qty) => {
-    alert(' - '+ qty + ' - ' +'Cantidad seleccionada')
+    Swal.fire({
+      title: qty ,
+      text: 'Cantidad seleccionadas',
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+    })
   };
 
   return (
