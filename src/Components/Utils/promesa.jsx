@@ -1,5 +1,3 @@
-import {data} from './data';
-
 let is_ok = true ;
 
 let desafio = (task) => {
