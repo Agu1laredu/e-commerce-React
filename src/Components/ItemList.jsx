@@ -17,7 +17,7 @@ const ItemProductcontainer = () => {
 
   const onAdd = (qty) => {
     alert(' '+ qty + ' ' +'Cantidad seleccionada')
-  }
+  };
 
   return (
     <div className="productos" style={{ display:'flex'}}>
