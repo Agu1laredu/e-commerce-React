@@ -7,7 +7,7 @@ const Contador = ({stock = 0, initial = 1, onAdd}) => {
 
    useEffect(() => {
        setCount(initial);
-   }, []);
+   }, [setCount]);
 
     const increment = () => {
       if (count < stock) {
