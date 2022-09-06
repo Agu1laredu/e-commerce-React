@@ -25,7 +25,7 @@ export const item = [
     },
     {
         id:1,
-        name: 'Diamante Blinblin',
+        name: 'Diamante Miguel Angel',
         price: 'USD 1500',
         imagen: 'https://i.pinimg.com/564x/52/56/dd/5256dd8b3f8b30a7a0c019ee6b3767ff.jpg'
     },

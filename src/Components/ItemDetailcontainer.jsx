@@ -10,11 +10,12 @@ const ItemDetalContainer = () => {
 
 
     useEffect(() => {
-        customFech(200, item[4])
+        customFech(500, item[4])
            .then(result => setData(result))
            .catch(err => console.log(err))
           
     },[]);
+    console.log('data',data)
     return (
         <ItemDetail item={data} />
     )
