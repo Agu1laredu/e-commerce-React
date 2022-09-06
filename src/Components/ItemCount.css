@@ -43,7 +43,7 @@
     background-color: black;
     margin-top: -10%;
     border-radius: 50px;
-    border: none;
+    border: 1px solid white;
     height: 50%;
     width: 30%;
     justify-items: center;

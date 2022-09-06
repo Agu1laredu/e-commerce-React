@@ -26,6 +26,7 @@ export const item = [
     {
         id:1,
         name: 'Diamante Miguel Angel',
+        detalle: 'Diamante Azul Europeo, pertenecio a la familia real en los tiempos del Rey de Francia Luis XIV ',
         price: 'USD 1500',
         imagen: 'https://i.pinimg.com/564x/52/56/dd/5256dd8b3f8b30a7a0c019ee6b3767ff.jpg'
     },
