@@ -2,18 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
-// import Lading from './Components/ItemListcontainer';
-import ItemDetail from './Components/ItemDetailcontainer';
+// import ItemListcontainer from './Components/ItemListcontainer'
+
 import Footer from './Components/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-    {/* <Lading /> */}
-    <ItemDetail/>
+  <BrowserRouter>
+   <div className='containerGrid'>
+   <App />
+    {/* <ItemListcontainer/> */}
     <Footer/>
-  </React.StrictMode>
+   </div>
+  </BrowserRouter>
 );
-
 

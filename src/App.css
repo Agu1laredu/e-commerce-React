@@ -1,22 +1,105 @@
 .App {
   text-align: center;
-  display: flex;
+  display: grid;
   justify-content: center;
   justify-items: center;
   margin: auto;
 }
 
-
 .App-header {
   display: flex;
+  justify-content: center;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  width: 50%;
-  
-  
+  width: 100%;
 }
 
 
 
+.Menu{
+  margin-bottom: 2%;
+  display: grid;
+  justify-content: center;
+
+}
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+  
+}
+
+.buttonnav{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 4rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.buttonnav:hover {
+  cursor: pointer;
+  border-bottom: none;
+  border-top: none;
+  background-color: #b8c40f;
+  transition: 1s;
+}
+
+.li {
+  cursor: pointer;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  margin: auto;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 800px){
+  nav{
+    justify-content: space-between;
+  }
+  h1{
+    font-size: 35px;
+  }
+  li{
+    font-size: 15px;
+  }
+  .buttonnav {
+    height: 2rem;
+    width: 20rem;
+  }
+  
+};
+
+
+@media (max-width: 500px){
+  nav{
+    justify-content: space-between;
+  }
+  h1{
+    font-size: 20px;
+  }
+  li{
+    font-size: 10px;
+  }
+  .buttonnav {
+    height: 1.5rem;
+    width: 20rem;
+  }
+  
+};

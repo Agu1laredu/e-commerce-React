@@ -48,7 +48,6 @@ function ItemListcontainer() {
       </Card>
       <section>
        
-        <ItemProductcontainer/>
       </section>
      
       <div className='fundadores'>
