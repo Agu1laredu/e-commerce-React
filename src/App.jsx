@@ -17,7 +17,7 @@ function App() {
           <Icon/>
         <nav>
          <div className='buttonnav'>
-             <li className='li'>  <Link className='link' to="Lading">INICIO</Link></li>
+             <li className='li'>  <Link className='link' to="/">INICIO</Link></li>
          </div>
          <div className='buttonnav'>
              <li className='li'><Link className='link' to="Product">PRODUCTOS</Link></li>
@@ -29,7 +29,7 @@ function App() {
      </div>
       </header>
       <Routes>
-        <Route path="Lading" element={<Lading />} />
+        <Route path="/" element={<Lading />} />
         <Route path="Product" element={<Product />} />
         <Route path="Contact" element={<Contact />} />
       </Routes>

@@ -1,11 +1,11 @@
 .productos{
-    margin-top: 20%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(88, 83, 83);
   width: 100%;
+  margin-bottom: 10%;
+  margin-top: 2%;
 }
 
 #card{

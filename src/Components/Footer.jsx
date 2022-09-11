@@ -9,7 +9,7 @@ function Footer() {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-           <h4>AGUILA DORADA .INC</h4>
+           <h4>JOYERÍA DORADA .INC</h4>
             <h1 className="list-unstyled">
               <li>342-420-6969</li>
               <li>BUENOS AIRES, ARGENTINA</li>

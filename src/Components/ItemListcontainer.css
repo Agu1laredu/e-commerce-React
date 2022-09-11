@@ -5,6 +5,7 @@
     text-align: center;
     color: white;
     height: 30em;
+    margin-top: 4%;
 }
 
 
@@ -21,13 +22,12 @@
 }
 
 
+hr{
+    margin-top: 20%;
+}
+
 .fundadores {
-    background-image: url(../assets/remerablanca.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
+    height: 50%;
     width: 100%;
     margin-top: 10%;
     display: flex;
@@ -37,7 +37,6 @@
 }
 
 .media {
-    margin-top: 15%;
     margin-bottom: 5%;
     width: 100%;
     height: 80%;

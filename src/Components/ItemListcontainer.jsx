@@ -3,7 +3,6 @@ import Card from 'react-bootstrap/Card';
 import Fundadores from './SubComponents/Funders';
 
 import Slider from './SubComponents/Slider';
-import ItemProductcontainer from './ItemList';
 
 
 // import fotouno from '../assets/ceouno.jpg';
@@ -47,13 +46,15 @@ function ItemListcontainer() {
         </div>
       </Card>
       <section>
-       
+       <hr />
       </section>
      
       <div className='fundadores'>
+        <hr />
         <Fundadores funders={funders} />
         <Fundadores funders={fundersdos} />
         <Fundadores funders={funderstres} />
+        <hr />
       </div>
     </section>
   );
