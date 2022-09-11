@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Contador from './ItemCount'
+import {  Link } from "react-router-dom";
 import './ItemList.css';
 import desafio from "./Utils/promesa";
 import { item } from "./Utils/item";
@@ -32,13 +32,13 @@ const ItemProductcontainer = () => {
       {products.map((item) => (
          <div className="productoss" style={{ display:'flex'}}>
           <Card id='card' style={{ width: "30rem" , margin: "5%" }}>
-            <Card.Img className="imagenproduct" variant="top" src={item.imagen}/>
+            <Card.Img className="imagenproducts" variant="top" src={item.imagen}/>
             <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-              <Card.Text>
-              {item.price}
-              </Card.Text>
-              <Contador stock={5} initial={1} onAdd={onAdd}/>
+            <nav>
+         <div className='buttonnav'>
+         <li className='li'><Link  className='link' to="Detail">DETALLE</Link></li>
+         </div>
+        </nav>
             </Card.Body>
           </Card>
       </div>

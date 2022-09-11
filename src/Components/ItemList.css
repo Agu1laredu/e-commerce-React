@@ -5,18 +5,18 @@
   flex-direction: row;
   width: 100%;
   margin-bottom: 10%;
-  margin-top: 2%;
 }
 
 #card{
     display: grid;
-    border: 1px solid white;
     border-radius: 50px;
     text-align: center;
-}
-.imagenproduct{
+    height: 100%;
     margin: auto;
-    border:  3px solid black;
+}
+.imagenproducts{
+    margin: auto;
+    border:  3px solid rgb(255, 255, 255);
     border-radius: 50px 50px 0 0 ;
     width: 98%;
     height: 300px;

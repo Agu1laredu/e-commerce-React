@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import './ItemList.css';
-import customFech from '../Components/Utils/promesa.jsx';
+import './ItemDetail.css';
+import customFech from '../Components/Utils/segundapromesa.jsx';
 import ItemDetail from './ItemDetail.jsx';
 const { item } = require('../Components/Utils/item.jsx');
 
@@ -10,7 +10,7 @@ const ItemDetalContainer = () => {
 
 
     useEffect(() => {
-        customFech(500, item)
+        customFech(500, item[4])
            .then(result => setData(result))
            .catch(err => console.log(err))
           

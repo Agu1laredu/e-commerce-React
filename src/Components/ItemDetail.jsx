@@ -17,10 +17,14 @@ const ItemDetail = ({item}) => {
 
     return (
         <div className="productos" style={{ display: 'flex' }}>
-            <div className="productoss" style={{ display: 'flex' }}>
-                <Card id='card' style={{ width: "30rem", margin: "5%" }}>
-                    <Card.Img className="imagenproduct" variant="top" src={item.imagen} />
-                    <Card.Body>
+            <hr />
+            <div className="productoss" >
+            <Card id='card' >
+                <div>
+                    <Card.Img className="imagenproduct"  src={item.imagen} />
+                </div>
+                   <div className='cardbody'>
+                   <Card.Body>
                         <Card.Title>{item.name}</Card.Title>
                         <Card.Text>
                             {item.price}
@@ -28,11 +32,15 @@ const ItemDetail = ({item}) => {
                         <Card.Text>
                             {item.detalle}
                         </Card.Text>
-                        <Contador stock={5} initial={1} onAdd={onAdd} />
                     </Card.Body>
+                   </div>
+                   
                 </Card>
             </div>
+            <Contador stock={5} initial={1} onAdd={onAdd} />
+            <hr />
         </div>
+       
     );
 };
 

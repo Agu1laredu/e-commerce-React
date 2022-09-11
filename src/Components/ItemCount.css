@@ -3,18 +3,18 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    height: 200px;
+    height: 100%;
     width: 70%;
+    
 }
 .contadordiv{
     display: grid;
     margin: auto;
-    height: 150px;
-    width: 100%;
+    height: 50%;
+    width: 50%;
+
 }
-.valores{
-    margin-top: -20%;
-}
+
 .valor{
     font-size: 200%;
     text-align: center;
@@ -26,7 +26,7 @@
 .botoncount{
     cursor: pointer;
     color: white;
-    height: 100%;
+    height: 50%;
     width: 50%;
     border-radius: 50px;
     border: 1px solid white;
@@ -41,11 +41,10 @@
 .addcart{
     color: white;
     background-color: black;
-    margin-top: -10%;
     border-radius: 50px;
     border: 1px solid white;
-    height: 50%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     justify-items: center;
     justify-content: center;
     align-items: center;

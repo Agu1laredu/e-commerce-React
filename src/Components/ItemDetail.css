@@ -1,0 +1,18 @@
+.productos{
+   width:150%;
+  
+}
+#card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardbody{
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 500px;
+}
+
+.imagenproduct{
+    margin-left: 5%;
+}
