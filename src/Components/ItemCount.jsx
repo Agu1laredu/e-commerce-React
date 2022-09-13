@@ -1,5 +1,4 @@
 import React, {useState,useEffect} from 'react';
-import Icon from './cardWidget';
 import './ItemCount.css'
 
 const Contador = ({stock = 0, initial = 1, onAdd}) => {

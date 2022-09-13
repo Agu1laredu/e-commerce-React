@@ -11,7 +11,7 @@ const ItemDetalContainer = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        customFech( item.find( item => item.id == id))
+        customFech( item.find( item => item.id === parseInt(id)))
            .then(result => setData(result))
            .catch(err => console.log(err))
           

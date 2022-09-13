@@ -13,7 +13,7 @@ const ItemProductcontainer = () => {
   
   useEffect(() => {
    if(id) {
-    desafio(item.filter(item => item.categoryId == id))
+    desafio(item.filter(item => item.categoryId ===  parseInt(id)))
     .then((result) => setProducts(result))
     .catch((err) => console.log(err));
    } else {
