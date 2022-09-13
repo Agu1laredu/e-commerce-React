@@ -20,7 +20,7 @@ function App() {
           <h1>JOYERÍA  DORADA</h1>
         <nav>
         <Icon className='iconomenu'/>
-         <div className='buttonnav'>
+        <div className='buttonnav'>
              <li className='li'>  <Link className='link' to="/">INICIO</Link></li>
          </div>
          <div className='buttonnav'>
@@ -37,7 +37,7 @@ function App() {
         <Route path="Product" element={<Product />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="/category/:id" element={<Product />} />
-        <Route path="/Detail" element={<Detail />} />
+        <Route path="/Detail/:id" element={<Detail />} />
       </Routes>
     </div>
   );

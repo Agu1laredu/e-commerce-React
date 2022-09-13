@@ -1,16 +1,30 @@
-
-#card{
+.detailContainer{
     display: flex;
     justify-content: space-between;
 }
+.divDetail{
+    width: 100%;
+}
+.card{
+    display: flex;
+    margin-top: 2%;
+}
+.textoCuerpo{
+    text-align: justify;
+    
 
+}
+.itemName{
+    font-size: 300%;
+    margin-top: 5%;
+}
+.itemPrices{
+    font-size: 200%;
+}
+.divImg{
+    margin: auto 10%;
+}
 .cardbody{
-    margin-left: 20%;
-    margin-top: 10%;
-    width: 500px;
-}
-
-.imagenproduct{
-    margin-left: 30%;
-    margin-top: -10%;
-}
+    margin: auto 10%;
+    width: 100%;
+} 

@@ -16,7 +16,7 @@
 }
 
 .valor{
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
 }
 .botones{
@@ -26,12 +26,11 @@
 .botoncount{
     cursor: pointer;
     color: white;
-    height: 50%;
-    width: 50%;
+    height: 80%;
+    width: 30%;
     border-radius: 50px;
     border: 1px solid white;
     background-color: black;
-    margin: 1%;
 }
 .contadorrrr{
     font-size: 300%;

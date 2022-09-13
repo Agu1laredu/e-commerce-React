@@ -4,7 +4,6 @@ import './ItemList.css';
 import desafio from "./Utils/promesa";
 import { item } from "./Utils/item";
 
-import Swal from 'sweetalert2'
 
 import Card from "react-bootstrap/Card";
 
@@ -22,7 +21,7 @@ const ItemProductcontainer = () => {
     .then((result) => setProducts(result))
     .catch((err) => console.log(err));
    }
-  }, []);
+  }, [id]);
 
 
   return (
@@ -50,7 +49,7 @@ const ItemProductcontainer = () => {
               <Card.Img className="imagenproducts" variant="top" src={item.imagen} />
             </Card>
                   <div className='buttonnavv'>
-                    <li className='lii'><Link className='link' to="/Detail">DETALLE</Link></li>
+                    <li className='lii'><Link className='link' to={`/Detail/${item.id}`}>DETALLE</Link></li>
                   </div>
           </div>
         ))}

@@ -23,7 +23,7 @@ const Contador = ({stock = 0, initial = 1, onAdd}) => {
     return <div className='contador'>
        <div className='contadordiv'>
        <div  className='valores'>
-       <p className='valor'>VALOR:{count}</p>
+       <p className='valor'>CANTIDAD:{count}</p>
        {
           stock ? <button className='addcart' onClick={() => onAdd(count)}>ADD</button> : <button disabled>ADD</button> 
         }

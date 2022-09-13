@@ -3,7 +3,7 @@ import Swal from 'sweetalert2'
 import Card from "react-bootstrap/Card";
 
 
-const ItemDetail = ({item}) => {
+const ItemDetail = ({ item }) => {
 
     const onAdd = (qty) => {
         Swal.fire({
@@ -16,31 +16,37 @@ const ItemDetail = ({item}) => {
     };
 
     return (
-        <div className="productos" style={{ display: 'flex' }}>
-            <hr />
-            <div className="productoss" >
-            <Card id='card' >
-                <div>
-                    <Card.Img className="imagenproduct"  src={item.imagen} />
-                </div>
-                   <div className='cardbody'>
-                   <Card.Body>
-                        <Card.Title>{item.name}</Card.Title>
-                        <Card.Text>
-                            {item.price}
-                        </Card.Text>
-                        <Card.Text>
-                            {item.detalle}
-                        </Card.Text>
-                    </Card.Body>
-                   </div>
-                   
+        <div className="detailContainer" >
+            <div className="divDetail" >
+                
+                <Card className='card' >
+                    <div className='divImg'>
+                        <Card.Img className="imgDetail" src={item.imagen} />
+                    </div>
+                    <div className='cardbody'>
+                        <Card.Body>
+                         <div className='textoCuerpo'>
+                         <Card.Title className='itemName'>{item.name}</Card.Title>
+                            <Card.Text className='itemPrices'>
+                                {item.price}
+                            </Card.Text>
+                            <Card.Text>
+                                {item.detalle}
+                            </Card.Text>
+                         </div>
+                            <div>
+                                <Contador stock={5} initial={1} onAdd={onAdd} />
+                            </div>
+                        </Card.Body>
+                          
+                    </div>
                 </Card>
+                <hr/>
+
             </div>
-            <Contador stock={5} initial={1} onAdd={onAdd} />
-            <hr />
+
         </div>
-       
+
     );
 };
 
