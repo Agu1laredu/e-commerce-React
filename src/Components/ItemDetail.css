@@ -1,18 +1,16 @@
-.productos{
-   width:150%;
-  
-}
+
 #card{
     display: flex;
     justify-content: space-between;
 }
 
 .cardbody{
-    margin-left: 5%;
+    margin-left: 20%;
     margin-top: 10%;
     width: 500px;
 }
 
 .imagenproduct{
-    margin-left: 5%;
+    margin-left: 30%;
+    margin-top: -10%;
 }

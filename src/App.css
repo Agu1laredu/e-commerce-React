@@ -1,9 +1,10 @@
 .App {
   text-align: center;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   justify-items: center;
-  margin: auto;
+  margin:  auto;
 }
 
 .App-header {
@@ -20,9 +21,8 @@
 
 
 .Menu{
-  margin-bottom: 2%;
-  display: grid;
   justify-content: center;
+  width: 100%;
 
 }
 h1{
@@ -42,6 +42,7 @@ nav{
   display: flex;
   justify-content: center;
   justify-items: center;
+  margin-top: 5%;
   height: 4rem;
   width: 15rem;
   text-align: center;
@@ -55,7 +56,7 @@ nav{
   background-color: #090f68;
   transition: 1s;
 }
-
+.lii{}
 .li {
   cursor: pointer;
   text-align: center;

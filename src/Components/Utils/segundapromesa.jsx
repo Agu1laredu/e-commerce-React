@@ -1,6 +1,6 @@
 let is_ok = true ;
 
-let desafio = (milisecond,task) => {
+let desafio = (task) => {
     return new Promise((resolve, reject) => {
         if (is_ok) {
             setTimeout(() => {

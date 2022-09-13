@@ -10,7 +10,7 @@ const ItemDetalContainer = () => {
 
 
     useEffect(() => {
-        customFech(500, item[4])
+        customFech( item[4])
            .then(result => setData(result))
            .catch(err => console.log(err))
           

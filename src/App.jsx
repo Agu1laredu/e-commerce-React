@@ -5,6 +5,7 @@ import Icon from './Components/cardWidget';
 import Lading from './Components/ItemListcontainer.jsx';
 import Product from './Components/ItemList';
 import Contact from './Components/ItemContactcontainer.jsx';
+import Detail from './Components/ItemDetailcontainer.jsx';
 
 
 
@@ -34,6 +35,8 @@ function App() {
         <Route path="/" element={<Lading />} />
         <Route path="Product" element={<Product />} />
         <Route path="Contact" element={<Contact />} />
+        <Route path="/category/:id" element={<Product />} />
+        <Route path="/Detail" element={<Detail />} />
       </Routes>
     </div>
   );
