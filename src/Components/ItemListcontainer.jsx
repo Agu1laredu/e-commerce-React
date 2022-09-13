@@ -27,7 +27,7 @@ function ItemListcontainer() {
   const funderstres = {
     nombre: 'Bella Thomsom',
     urlimagen: 'https://i.pinimg.com/564x/09/be/ac/09beac60c960fdb61f877b1a84a30b77.jpg',
-    texto: 'Fundadora y Directora de Producción'
+    texto: 'Fundadora y Directora de Recursos Humanos'
   }
 
   return (
