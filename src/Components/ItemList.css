@@ -6,8 +6,8 @@
 .productos{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 5%;
+  justify-content: center;
+  margin-top: 2%;
   max-width: 100%;
 }
 .productoss{

@@ -12,13 +12,14 @@ import Detail from './Components/ItemDetailcontainer.jsx';
 function App() {
   return (
     <div className="App">
-        
+      
       <header className="App-header">
+
       <div className="Menu">
           
           <h1>JOYERÍA  DORADA</h1>
-          <Icon/>
         <nav>
+        <Icon className='iconomenu'/>
          <div className='buttonnav'>
              <li className='li'>  <Link className='link' to="/">INICIO</Link></li>
          </div>

@@ -1,10 +1,5 @@
 .Icon {
-    display: flex;
-    width: 10rem;
     cursor: pointer;
-    margin-top: -11%;
-    margin-bottom: 5%;
-    margin-left: -18%;
 }
 
 .carrito {
