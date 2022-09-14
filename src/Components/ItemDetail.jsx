@@ -1,9 +1,14 @@
 import Contador from './ItemCount'
+import {useState} from 'react';
+import {Link} from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 import Swal from 'sweetalert2'
 import Card from "react-bootstrap/Card";
 
 
 const ItemDetail = ({ item }) => {
+
+    const [itemCount, setItemCount] = useState(0);
 
     const onAdd = (qty) => {
         Swal.fire({
@@ -13,6 +18,7 @@ const ItemDetail = ({ item }) => {
             imageHeight: 200,
             imageAlt: 'Custom image',
         })
+        setItemCount(qty);
     };
 
     return (
@@ -34,8 +40,12 @@ const ItemDetail = ({ item }) => {
                                 {item.detalle}
                             </Card.Text>
                          </div>
-                            <div>
-                                <Contador stock={5} initial={1} onAdd={onAdd} />
+                            <div>{
+                                itemCount === 0 
+                                ? <Contador stock={5} initial={1} onAdd={onAdd} />
+                                : <Link to='/' styles={{textDecoration: "none"}}><Button className='checkout'>CHECKOUT</Button></Link>
+
+                                }
                             </div>
                         </Card.Body>
                           

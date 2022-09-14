@@ -2,12 +2,14 @@ import React, {useState} from 'react';
 import './ItemContact.css'
 
 const Formulario = () => {
+
 	const [inputNombre, cambiarInputNombre] = useState('');
 	const [inputCorreo, cambiarInputCorreo] = useState('');
 
 	// Funcion que se encargara de validar los datos y enviar el formulario
 	const handleSubmit = (e) => {
 		e.preventDefault();
+
 
 		// Comprobamos validacion del formulario ...
 		// Si todo es correcto enviamos el formulario
@@ -52,7 +54,7 @@ const Formulario = () => {
 					/>
 				</div>
 
-				<button type="submit">Enviar</button>
+				<button type="submit"  >Enviar</button>
 			</form>
 		</>
 	);
